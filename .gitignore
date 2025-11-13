@@ -1,0 +1,18 @@
+# Carpetas automáticas
+.terraform/
+.terraform.lock.hcl
+
+# Archivos de estado
+terraform.tfstate
+terraform.tfstate.backup
+
+# Variables sensibles
+*.tfvars
+*.tfvars.json
+
+# Logs
+*.log
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
